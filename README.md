@@ -1,24 +1,55 @@
-# README
+# アプリ名
+MY BLOG
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# 概要
 
-Things you may want to cover:
+自分自身の趣味の記録や日記などに使えるブログサイトです。
+備忘録としても使えます。
+Add Newを押し、タイトルを決めたら概要を入力して新しい記事を作成することが出来ます。
+作成した記事は、editで編集やX印をクリックすることで編集や記事を削除したりすることが出来ます。
+記事をクリックする事で、記事にコメントすることもできます。
+ロゴを押すことによりトップページに戻ることが出来ます。
 
-* Ruby version
+# 本番環境
 
-* System dependencies
+https://my-story-29792.herokuapp.com/
 
-* Configuration
+# 制作背景
 
-* Database creation
+自分自身が読書を多くしたりするので、アウトプットや忘備録的な役割を果たすことができるアプリがあると便利だと思い制作しました。
+他にも自分の趣味がある方などは、自身の趣味について記事をかいてもらいそれについてコメントをもらえるツールといても使うことが
+出来ます。
+テーマとしては、シンプルを心がけました。
 
-* Database initialization
+# 使用技術
 
-* How to run the test suite
+## バックエンド
 
-* Services (job queues, cache servers, search engines, etc.)
+Ruby, Ruby on rails
 
-* Deployment instructions
+## フロントエンド
 
-* ...
+HTML, CSS, javascript
+
+## データベース
+
+MySQL, Sequel Pro
+
+## アプリケーションサーバー
+
+Heroku
+
+## ソース管理
+
+Github, Github Desktop
+
+## エディタ
+
+Visual Studio Code
+
+# 課題や今後実装したい機能
+
+課題としては、ユーザー管理機能を実装出来ていないので自分で書いた記事に大して現状自分でしかコメントを行うことしかできません。
+よって、ユーザー管理機能を実装していきたいです。
+また、画像などをアップロードできるようになると、より盛り上がると思うので画像投稿機能も実装していきたいです。
+
